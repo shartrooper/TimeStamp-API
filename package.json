@@ -1,17 +1,19 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
+		"body-parser": "^1.19.0",
+		"dotenv": "^8.2.0",
 		"express": "^4.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "node -r dotenv/config server.js"
 	},
 	"engines": {
 		"node": "8.11.2"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://idontknow/todo.git"
+		"url": "https://github.com/shartrooper/TimeStamp-API.git"
 	}
 }
